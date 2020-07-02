@@ -17,7 +17,7 @@ spec:
       containers:
         - name: chaosblade-operator
           # Replace this with the built image name
-          image: chaosbladeio/chaosblade-operator:0.6.0
+          image: harbor.ymmoa.com/monitoring/chaosblade-operator:0.6.0
           command: ["chaosblade-operator"]
           args:
             - --chaosblade-version=0.6.0
